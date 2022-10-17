@@ -1,0 +1,96 @@
+.geral {
+    min-height: 80vh;
+}
+
+.geral {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+}
+
+.ou {
+    margin-top: 8%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.op {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 500px;
+    height: 300px;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 30px;
+}
+
+.butaum:hover {
+    background-color: #33454e;
+    border-color: white;
+}
+
+.butaum {
+    background-color: #1A2B34;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    height: 70px;
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/*------------------------------------
+                celular
+------------------------------------*/
+
+@media (max-width: 999px) {
+    .titulo{
+        margin-top: 25%;
+        margin-bottom: 15%;
+    }
+
+    
+    .opcoes {
+        flex-direction: column;
+    }
+
+    .op {
+        width: 300px;
+        height: 350px;
+        margin-bottom: 30px;
+    }
+
+    .ou {
+        margin: 0;
+        margin: 30px;
+        margin-top: 0px;
+    }
+}

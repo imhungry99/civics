@@ -1,0 +1,49 @@
+.geral {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.online h1 {
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+.times {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.info h3 {
+    margin: 10px;
+}
+
+.off h1{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.off h2 {
+    margin-bottom: 10%;
+}

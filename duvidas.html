@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/geral.css">
+    <link rel="stylesheet" href="./css/duvidas.css">
+    <link rel="stylesheet" href="./css/ani.css">
+    <title>Enigma</title>
+</head>
+<body class="menufechado">
+<header>
+    <nav>
+        <div class="logo">
+            <img src="./img/logog.png">
+        </div>
+        <div class="menu">
+            <ul>
+                <li> <a href="./index.html"><h2>inicio</h2></a> </li>
+                <li> <a href="./dica-semanal.html"><h2>dicas</h2></a> </li>
+                <li> <a href="./times.html"><h2>times</h2></a> </li>
+                <li> <a href="./duvidas.html"><h2>duvidas</h2></a> </li>
+                <li> <a href="./regras.html"><h2>regras</h2></a> </li>
+                <li> <a href="./entre-em-contato.html"><h2>contato</h2></a> </li>
+            </ul>
+        </div>
+        <div class="menu-cell">
+            <div class="abrir">
+                <button class="abrirmenuu" onclick="abrirMenu()"><img src="./img/abrir-menu.png"></button>
+            </div>
+            <div class="fechar">
+                <button class="fecharmenuu" onclick="fecharMenu()"><img src="./img/abrir-menu.png"></button>
+            </div>
+        </div>
+    </nav>
+    <div class="menuaberto">
+    
+    </div>
+</header>
+<main>
+    <div class="menu-mobile">
+        <ul>
+            <li> <a class="um"    href="./index.html"><h2>inicio</h2></a> </li>
+            <li> <a class="dois"  href="./dica-semanal.html"><h2>dicas</h2></a> </li>
+            <li> <a class="tres"  href="./times.html"><h2>times</h2></a> </li>
+            <li> <a class="four"  href="./duvidas.html"><h2>duvidas</h2></a> </li>
+            <li> <a class="cincu" href="./regras.html"><h2>regras</h2></a> </li>
+            <li> <a class="seis" href="./entre-em-contato.html"><h2>contato</h2></a> </li>
+            <li> <a class="cincu" href=""><h2></h2></a> </li>
+        </ul>
+    </div>
+    <div class="fac">
+        <h1>perguntas frequentes</h1>
+        <div class="pesquisa">
+            <h2 class="tt">digite sua duvida abaixo</h2>
+            <input class="pesquisar" id="searchbar" onkeyup="search_fichas()" type="text" name="search" placeholder="Procurar">
+            <div class="list">
+                <div class="duvidas">
+                    <a href="#" class="duvida">
+                      <h2>quando vai começar?</h2>
+                      <h3>o enigma irá começar segunda-feira às 22Hrs</h3>
+                    </a>
+                </div>
+                <div class="duvidas">
+                    <a href="#" class="duvida">
+                      <h2>quando vai lançar as dicas?</h2>
+                      <h3>as dicas iram ser lançadas todas segundas às 22Hrs</h3>
+                    </a>
+                </div>
+                <div class="duvidas">
+                    <a href="#" class="duvida">
+                      <h2>vai ter alguma premiação?</h2>
+                      <h3>irá ter uma premiação, mas ainda não foi decidida</h3>
+                    </a>
+                </div>
+                <div class="duvidas">
+                    <a href="#" class="duvida">
+                      <h2>qual é o tema dos enigmas?</h2>
+                      <h3>o enigma não tem um tema predefinido, ou seja pode ser de qualquer tema</h3>
+                    </a>
+                </div>
+                <div class="duvidas">
+                    <a href="#" class="duvida">
+                      <h2>onde as dicas vão ficar?</h2>
+                      <h3>as dicas vão ficar espalhadas pela escolas </h3>
+                    </a>
+                </div>
+                <div class="duvidas">
+                    <a href="#" class="duvida">
+                      <h2>o que é a "ajuda"?</h2>
+                      <h3>a "ajuda" é um ajuda que vamos dar para quem não solucionar o enigma, nela vai conter um dica de onde procurar sobre o assunto.</h3>
+                    </a>
+              </div>
+            </div>
+            <br><br><br><br>
+            <div class="op2">
+                <h1>entre em contato conosco</h1>
+                <h2 class="caso">caso sua duvida não esteja acima, clique no botão abaixo para entrar em contato</h2>
+                <a class="butaum" href="./entre-em-contato.html">Clique aqui</a>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="nav-footer">
+        <div class="logo-f">
+            <img src="./img/logog.png">
+        </div>
+        <div class="feito">
+            <h2>Feito com <span class="heart">❤</span> por Hungry</h2>
+        </div>
+    </div>
+</footer>
+</body>
+<script src="./js/ani.js"></script>
+<script src="./js/duvidas.js"></script>
+<script src="./js/menu.js"></script>
+</html>

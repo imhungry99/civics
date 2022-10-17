@@ -1,0 +1,205 @@
+.geral {
+    background-color: #33454e;
+}
+
+.geral h1 {
+    font-size: 45px;
+}
+
+.inicio {
+    background-color: transparent;
+    color: white;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.inicio h1 {
+    margin-right: 30px;
+}
+
+.img {
+    margin-left: 30px;
+}
+
+.como-funfa {
+    background-color: transparent;
+    color: white;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.como-funfa h1 {
+    margin-bottom: 50px;
+}
+
+.como-funfa h2 {
+    height: 300px;
+    width: 700px;
+}
+
+.dicas {
+    background-color: transparent;
+    color: white;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dicas h1 {
+    margin-bottom: 50px;
+}
+
+
+
+.duvidas-frequentes {
+    background-color: transparent;
+    color: white;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.duvidas-frequentes h1 {
+    margin-bottom: 50px;
+}
+
+.duvidas {
+    display: flex;
+    flex-direction: row;
+}
+
+.duvida {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 200px;
+    width: 350px;
+    margin: 50px;
+}
+
+.duvida h2 {
+    margin-bottom: 25px;
+}
+
+.duvida-extra {
+    background-color: transparent;
+    color: white;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.duvida-extra h2 {
+    margin-top: 35px;
+}
+
+.duvida-extra a {
+    background-color: #1A2B34;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    height: 70px;
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    margin-top: 30px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.butaum:hover {
+    background-color: #33454e;
+    border-color: white;
+}
+
+.butaum {
+    background-color: #1A2B34;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    height: 70px;
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.discord {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.discord h1 {
+    text-align: center;
+}
+
+/*------------------------------------
+                celular
+------------------------------------*/
+
+@media (max-width: 999px) {
+    body {
+        width: 100vw;
+    }
+    .img {
+        display: none;
+    }
+    .inicio h1 {
+        margin: 0;
+    }
+
+    .como-funfa h2 {
+        width: 350px;
+    }
+
+    .duvidas {
+        flex-direction: column;
+    }
+
+    .duvida {
+        margin: 0;
+        margin-top: 50px;
+    }
+
+    .discord h2 {
+        display: none;
+    }
+}
